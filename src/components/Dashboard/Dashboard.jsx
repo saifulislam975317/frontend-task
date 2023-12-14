@@ -16,14 +16,14 @@ const Dashboard = () => {
         <ul className="menu p-4 w-80 min-h-full bg-teal-700 text-white">
           <>
             <li>
-              <NavLink to="/dashboard/manageItems">Manage Items</NavLink>
+              <NavLink to="/dashboard/addWatch">Home</NavLink>
+            </li>
+            <li>
+              <NavLink to="/dashboard/manageItems">Activities</NavLink>
             </li>
 
             <li>
-              <NavLink to="/dashboard/addWatch">Add Watch</NavLink>
-            </li>
-            <li>
-              <NavLink to="/dashboard/allUsers">All Users</NavLink>
+              <NavLink to="/dashboard/allUsers">All Activities</NavLink>
             </li>
           </>
 
